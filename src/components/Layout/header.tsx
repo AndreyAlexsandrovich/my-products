@@ -22,7 +22,7 @@ const AppHeader = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const handleMenuClick = (e) => {
+  const handleMenuClick = (e: any) => {
     navigate(e.key);
   };
 

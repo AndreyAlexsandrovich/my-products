@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
 import AppLayout from './components/Layout/Layout';
-import ItemsList from './pages/Wardrobe/Wardrobe';
-import CreateItem from './pages/WardvorbeAdd/WardordeAdd';
-import ItemDetail from './pages/WardrobeDetail';
+import Wardrobe from './pages/Wardrobe/Wardrobe';
+import WardordeAdd from './pages/WardvorbeAdd/WardordeAdd';
+import WardrobeDetail from './pages/WardrobeDetail/WardrobeDetail';
 
 export const router = createBrowserRouter([
   {
@@ -11,19 +11,19 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <ItemsList />,
+        element: <Wardrobe />,
       },
       {
         path: '/wardrobe',
-        element: <ItemsList />,
+        element: <Wardrobe />,
       },
       {
         path: '/wardrobe/add',
-        element: <CreateItem />,
+        element: <WardordeAdd />,
       },
       {
         path: '/wardrobe/:id',
-        element: <ItemDetail />,
+        element: <WardrobeDetail />,
       },
     ],
   },

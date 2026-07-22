@@ -102,3 +102,5 @@ export const WardrobeAdd: React.FC = () => {
     </div>
   );
 };
+
+export default WardrobeAdd;
