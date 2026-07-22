@@ -1,0 +1,92 @@
+@import '../../styles/variables';
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: $spacing-lg;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.error {
+  text-align: center;
+  color: $error-color;
+  font-size: $font-size-lg;
+  padding: $spacing-xl;
+}
+
+.backButton {
+  margin-bottom: $spacing-lg;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $spacing-xl;
+  background: white;
+  border-radius: $border-radius-md;
+  padding: $spacing-xl;
+  box-shadow: $box-shadow-sm;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: $border-radius-md;
+  min-height: 300px;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: $border-radius-md;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.name {
+  font-size: $font-size-xl;
+  color: $text-primary;
+  margin: 0;
+}
+
+.category {
+  color: $primary-color;
+  font-weight: 600;
+  font-size: $font-size-md;
+}
+
+.date {
+  color: #888;
+  font-size: $font-size-sm;
+}
+
+.description {
+  line-height: 1.8;
+  color: #555;
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  gap: $spacing-md;
+  margin-top: $spacing-lg;
+  border-top: 1px solid #eee;
+  padding-top: $spacing-lg;
+}

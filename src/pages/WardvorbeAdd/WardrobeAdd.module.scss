@@ -1,0 +1,71 @@
+@import '../../styles/variables';
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: $spacing-lg;
+}
+
+.title {
+  font-size: $font-size-xl;
+  text-align: center;
+  margin-bottom: $spacing-xl;
+  color: $text-primary;
+}
+
+.form {
+  background: white;
+  padding: $spacing-xl;
+  border-radius: $border-radius-md;
+  box-shadow: $box-shadow-md;
+}
+
+.field {
+  margin-bottom: $spacing-lg;
+
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: $spacing-sm;
+    color: $text-primary;
+  }
+}
+
+.error {
+  display: block;
+  color: $error-color;
+  font-size: $font-size-sm;
+  margin-top: $spacing-sm;
+}
+
+.select {
+  width: 100%;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: $spacing-md;
+  margin-top: $spacing-xl;
+}
+
+.dateInput {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  font-size: 14px;
+  height: 32px;
+  background: white;
+  transition: border-color 0.3s;
+
+  &:focus {
+    outline: none;
+    border-color: $primary-color;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+}

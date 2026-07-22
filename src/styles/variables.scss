@@ -1,0 +1,53 @@
+$primary-color: #1677ff;
+$success-color: #52c41a;
+$error-color: #ff4d4f;
+$warning-color: #faad14;
+
+$text-primary: #1a1a1a;
+$text-secondary: #666666;
+$text-light: #999999;
+
+$bg-body: #f5f7fa;
+$bg-white: #ffffff;
+
+
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+
+
+$font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-mono: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+$font-size-xxl: 32px;
+
+
+$box-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$box-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+$box-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+$box-shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.16);
+
+
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-wide: 1440px;
+
+
+$z-index-dropdown: 1000;
+$z-index-modal: 1100;
+$z-index-tooltip: 1200;
+$z-index-toast: 1300;
