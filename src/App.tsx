@@ -11,7 +11,7 @@ import './index.scss';
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/my-products">
         <Routes>
           <Route path="/" element={<Navigate to="/wardrobe" />} />
           <Route path="/wardrobe" element={<Wardrobe />} />
